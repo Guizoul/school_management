@@ -5,10 +5,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
-import ecoleClasses.Classe;
-import ecoleClasses.Ecole;
-import ecoleClasses.Etudiant;
-import ecoleClasses.Professeur;
+import projectClasses.Classe;
+import projectClasses.Ecole;
+import projectClasses.Professeur;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;

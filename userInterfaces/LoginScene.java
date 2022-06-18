@@ -1,7 +1,7 @@
 package userInterfaces;
 
-import ecoleClasses.Admin;
-import ecoleClasses.Ecole;
+import projectClasses.Admin;
+import projectClasses.Ecole;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;

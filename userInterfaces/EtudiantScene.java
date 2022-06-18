@@ -6,10 +6,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
-import ecoleClasses.Ecole;
-import ecoleClasses.Etudiant;
-import ecoleClasses.Filiere;
-import ecoleClasses.codeStudentException;
+import projectClasses.Ecole;
+import projectClasses.Etudiant;
+import projectClasses.Filiere;
+import projectClasses.codeStudentException;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -22,11 +22,8 @@ import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.CornerRadii;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
-import javafx.stage.Modality;
-import javafx.stage.Stage;
 
 public class EtudiantScene {
 	static Ecole ecole = new Ecole();
